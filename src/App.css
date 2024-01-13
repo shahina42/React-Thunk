@@ -1,0 +1,55 @@
+body{
+  padding: 0;
+margin: 0;
+background-color: rgb(48, 0, 53);
+color: rgb(56, 3, 53);
+text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  color: rgb(56, 3, 53);
+  border :2px solid  rgb(168, 33, 162);
+  border-radius: 5px;
+  background-color:  white;
+  font-size: 14px ;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+button:hover{
+  background-color:  rgb(56, 3, 53);
+  color:white;
+  box-shadow: 2px 2px 5px 2px rgb(255, 106, 243);
+}
+
+.answers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.smalldiv{
+
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+ margin-left: 450px;
+ margin-top: 30px;
+ box-shadow: 2px 2px 5px rgb(175, 17, 162);
+ background-color: rgb(206, 162, 202);
+ margin-bottom: 30px;
+
+}
+
+h1{
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 15px;
+  font-weight: lighter;
+}
